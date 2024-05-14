@@ -78,7 +78,7 @@ public class CalculatorTests {
     void circumference () {
         int a= 4;
         int result = (int) calculator.getCircumference(a);
-        int expectedResult = 2; /*25*/
+        int expectedResult = 25;
         Assertions.assertEquals(expectedResult, result);
     }
 
